@@ -1,0 +1,190 @@
+@font-face {
+    font-family: Spectral;
+    src: url("./Spectral_SC/SpectralSC-Regular.ttf")
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("./Roboto/Roboto-Regular.ttf")
+}
+
+.page{
+   background-color: #E7DECD;
+}
+
+body{
+    margin: 0;
+    font-family: Roboto;
+}
+
+header {
+    height: 100px;
+    background: linear-gradient(90deg, #4D8B31,black 10%);
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 92%;
+    padding-top:20px;
+    color: white; 
+    align-items: flex-end;  
+}
+
+.logo{
+    width: 61px;
+    height: 54px;
+}
+.logoTitle{
+    display: flex;
+    align-items: flex-end;
+}
+
+.name{
+    font-size: 40px;
+    font-family: Spectral;
+    line-height: 28px;
+    color:#E7DECD;
+    margin: 0;
+    }
+
+    
+.Menu{
+    display: flex;
+    }
+    
+.menu{
+    font-size: 17px;
+    font-family: Roboto;
+    color: white;
+    text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+    }
+.menu > p {
+    margin:  0 20px;
+    }
+  
+.number{
+    font-family: Roboto;
+    font-size: 17px;
+    text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+} 
+.number > p {
+    margin:  0;
+}
+    
+.contacts{
+    display: flex;
+    align-items: flex-end; 
+}
+
+.cont{
+    height: 30px;
+    margin:  0 10px;
+    
+}
+
+.pic1{
+    width: 100%;
+    margin: 0;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+    width: 100%;
+    
+}  
+.textBlock{
+    background-color: black;
+    height: 480px;
+    border: 2px solid #4D8B31;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}  
+
+
+
+.titleText{
+    font-size: 30px;
+    color: white;
+    margin-top: 15px ;
+}
+
+.text{
+    font-size: 17px;
+    padding: 0 25px;
+    color: white;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.lastNews{
+    font-size: 40px;
+    text-align: center;
+    margin-top:110px;
+    margin-bottom: 60px;
+}
+
+.pic{
+    width: 300px;
+    height: 215px;
+    border: 1px solid black;
+}
+
+.picText{
+    font-size: 17px;
+}
+.picText > p {
+    margin: 15px 0 140px 0;
+}
+
+.position{
+    text-align: center;
+}
+
+.news{
+    width: 90%;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+}
+
+.element{
+    height: 30px;
+}
+
+.elText{
+    font-size: 14px;
+    margin-bottom:17px;
+    
+}
+.CONTACTI{
+    margin-top:60px;
+    font-size: 16px;
+    margin-left: 70px;
+}
+
+.pos{
+    text-align: center;
+    margin: 30px;
+}
+.lastText{
+    font-size:14px;
+    width: 100%;
+    display: flex;
+    padding:0 0 50px 70px;
+    box-sizing: border-box;
+    
+}
+.footer{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding-top:40px;
+    border-top: 1px solid black;
+}
