@@ -1,0 +1,58 @@
+.container{
+    width: 90%;
+    margin: auto;
+}
+.podii{
+    font-size: 20px;
+    text-align: center;
+}
+.podii > p {
+    margin: 45px auto 30px auto ;
+}
+.textPodii{
+    font-size: 17px;
+}
+.textPodii > p{
+    margin: 21px auto 0 auto;
+}
+.smallText{
+    font-size: 14px;
+    color: #444444;
+}
+.smallText > p {
+    margin: 9px auto;
+}
+.lastTextPodii{
+    font-size: 17px;
+}
+.lastTextPodii > p {
+    margin: 39px auto  252px auto;
+}
+
+
+@media only screen and (max-width: 576px){
+    .container{
+    margin: 32px auto 129px auto;
+    }
+    .podii{
+    display: none;  
+    }
+    .textPodii{
+    font-size: 13px;
+    }
+    .textPodii > p{
+    margin: 10px auto;
+    }
+    .smallText{
+    font-size: 13px;
+    }
+    .smallText > p {
+    margin: 1px auto;
+    }
+    .lastTextPodii{
+    font-size: 13px;
+    }
+    .lastTextPodii > p {
+    margin: 51px auto;
+    }
+}

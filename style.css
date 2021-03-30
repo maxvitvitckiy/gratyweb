@@ -19,8 +19,7 @@ body{
 
 header {
     height: 100px;
-    background: linear-gradient(90deg, #4D8B31,black 10%);
-    
+    background: linear-gradient(90deg, #4D8B31,black 10%); 
 }
 
 .header{
@@ -49,8 +48,10 @@ header {
     color:#E7DECD;
     margin: 0;
     }
-
-    
+a {
+    color: white;
+    text-decoration: none;
+}
 .Menu{
     display: flex;
     }
@@ -87,6 +88,7 @@ header {
 
 .pic1{
     width: 100%;
+    height: auto;
     margin: 0;
 }
 
@@ -106,8 +108,6 @@ header {
     align-items: center;
     flex-direction: column;
 }  
-
-
 
 .titleText{
     font-size: 30px;
@@ -131,8 +131,8 @@ header {
 }
 
 .pic{
-    width: 300px;
-    height: 215px;
+    width: 100%;
+    height: auto;
     border: 1px solid black;
 }
 
@@ -145,6 +145,7 @@ header {
 
 .position{
     text-align: center;
+    width: 20%;
 }
 
 .news{
@@ -155,7 +156,7 @@ header {
 }
 
 .element{
-    height: 30px;
+    height: 40px;
 }
 
 .elText{
@@ -188,3 +189,251 @@ header {
     padding-top:40px;
     border-top: 1px solid black;
 }
+.headerMOBILE{
+    display: none;
+}
+.Arrow{
+    display: none;
+}
+
+
+@media only screen and (max-width: 938px){
+    header {
+        height: 80px;
+    }
+    .header{
+        width: 92%;
+    }
+    .logo{
+        width: 50px;
+        height: 44px;
+    }
+    .name{
+        font-size: 30px;
+    }
+    .menu{
+        font-size: 12px;
+        }
+    .number{
+        font-size: 12px;
+    }
+    .cont{
+        height: 25px;
+    }
+   
+}
+
+
+@media only screen and (max-width: 768px){
+header{
+    background: black;
+    height: 70px;
+    align-items: center;
+}
+    .header{
+    display: none;
+}
+.headerMOBILE{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    color: white; 
+    align-items: center;
+}
+.logo{
+    width: 60px;
+    height: 54px;
+}
+.logoTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;   
+}
+.name{
+    font-size: 40px;
+    font-family: Spectral;
+    line-height: 40px;
+    color:#E7DECD;
+    
+    }
+.burger{
+    height: 35px;
+}
+
+
+
+.info{
+    flex-direction: column;
+}
+.textBlock{
+width: 90%;
+background-color: #E7DECD;
+height: auto;
+border: 2px solid #E7DECD;
+margin: auto;
+}
+.titleText{
+    color: black;
+    margin-top: 0 ;
+}
+.text{
+    padding: 0;
+    color: black;
+    text-align: center;
+}
+
+.lastNews{
+    font-size: 30px;
+    margin: 80px auto 40px auto;
+}
+.position{
+    width: 25%;
+}
+#position4{
+    display: none;
+}
+.news{
+    width: 100%;
+    padding: 35px;
+}
+.arrow{
+    width: 98%;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto 100px auto;
+}
+.picArrow{
+    width: 100%;
+    margin-bottom: 52px; 
+}
+.Arrow{
+    width:5%;
+    display: flex;
+    align-items: center;
+
+}
+.picText{
+    font-size: 15px;
+}
+.picText > p {
+margin: 10px auto;
+}
+
+
+.footer{
+    flex-direction: column;
+}
+.CONTACTI{
+    margin: auto ;
+    width: 90%;
+    font-size: 16px;
+}
+.pos{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    align-items: center;
+}
+.elText{
+    margin: 0 0 0 10px; 
+    font-size: 14px;
+}
+.lastText{
+    margin:auto;
+    width: 90%;
+    padding: 0;
+    font-size: 14px;
+}
+.element{
+    height: 35px;
+}
+
+}
+
+@media only screen and (max-width: 576px){
+    header{
+        height: 30px;
+    }
+    
+    .logo{
+        width: 25px;
+        height: 25px;
+    }
+    .name{
+        font-size: 18px;
+        margin: 0;
+        align-items: center;
+        line-height: 18px;
+        }
+    .name > p {
+        margin: 0;
+    }
+    .burger{
+        height: 20px;
+    }
+
+
+
+   
+        .titleText{
+            font-size: 17px;
+        }
+        .text{
+            font-size: 13px;
+        }
+        .lastNews{
+            font-size: 17px;
+            margin: 70px auto 25px auto;
+        }
+        .position{
+            width: 45%;
+        }
+        #position3{
+            display: none;
+        }
+        .picText{
+            font-size: 15px;
+        }
+        .picText > p {
+        margin: 10px auto ;
+        }
+        .arrow{
+            margin: 0 auto 80px auto;
+        }
+        .Arrow{
+            width:10%;
+        }
+        
+
+
+
+    .CONTACTI{
+        margin: auto ;
+        width: 90%;
+        font-size: 13px;
+    }
+    .pos{
+        display: flex;
+        margin: auto;
+        width: 90%;
+        align-items: center;
+    }
+    .elText{
+        margin: 0 0 0 10px; 
+        font-size: 12px;
+    }
+    .lastText{
+        margin:auto;
+        width: 90%;
+        padding: 0;
+        font-size: 12px;
+    }
+    .element{
+        height: 25px;
+    }
+    .footer{
+        padding-top:20px;
+    }
+    }

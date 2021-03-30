@@ -1,0 +1,87 @@
+.novini{
+    width: 90%;
+    margin: 67px  auto 252px auto;
+}
+.container{
+    display: flex;
+    width: 100%;
+    margin: 30px auto;
+    align-items: flex-start; 
+}
+.data{
+    font-size: 12px;
+    color: #333333;
+}
+.data > p {
+    margin: 5px 14px 0 auto;
+}
+.photo{
+    width: 12%;
+    height: auto;
+    border: 1px solid black;
+}
+.allText{
+    margin-left: 25px;
+}
+.photoName{
+    font-size: 17px;
+}
+.photoName > p {
+    margin: 0 auto 21px auto;
+}
+.photoText{
+    font-size: 14px;
+    color: #333333;
+}
+.photoText > p {
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px){
+.novini{
+    width: 90%;
+    margin: 40px  auto 200px auto;
+}
+.photo{
+    width: 17%;
+}
+.photoName{
+    font-size: 15px;
+}
+.photoText{
+    font-size: 12px;
+}
+.data{
+    font-size: 10px;
+}
+.allText{
+    margin-left: 20px;
+}
+}
+
+@media only screen and (max-width: 576px){
+    .novini{
+    width: 90%;
+    margin: 31px  auto 148px auto;
+    }   
+    .photo{
+        width: 70%;
+        display: flex;
+        margin: 15px auto;
+    }
+    .photoName{
+        font-size: 14px;
+    }
+    .photoText{
+        font-size: 12px;
+    }
+    .data{
+        font-size: 10px;
+    }
+    .allText{
+        margin-left: 0;
+    }
+.container{
+    flex-direction: column;
+}
+    }

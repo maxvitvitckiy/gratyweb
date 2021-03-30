@@ -1,0 +1,32 @@
+.container{
+    width: 90%;
+    margin: 47px auto 328px auto;
+}
+.bigText{
+    font-size: 17px;
+    margin-bottom: 32px;
+}
+.smallText{
+    font-size: 14px;
+    width: 90%;
+    line-height: 19px;
+}
+.data{
+    margin-top: 24px;
+}
+
+
+
+@media only screen and (max-width: 576px){
+    .container{
+        margin: 31px auto 148px auto;
+    }
+    .bigText{
+        font-size: 14px;
+        margin-bottom: 17px;
+    }
+    .smallText{
+        font-size: 13px;
+        line-height: 15px;
+    }
+}
